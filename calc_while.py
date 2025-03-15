@@ -39,7 +39,9 @@ while True:
     elif operador == '*':
         resultado = num_1_float * num_2_float
 
-    print(resultado)
+    print(f'{num_1_float} {operador} {num_2_float} = {resultado}')
+
+    
     sair = input ('Quer sair? [s]im: ').lower().startswith('s')
 
     if sair is True:
